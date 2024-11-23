@@ -1,0 +1,174 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: lightgreen;
+  justify-content: center;
+}
+
+
+.card p{
+  color: white;
+}
+
+
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: darkgreen;
+  padding: 20px 10px;
+}
+
+.header h1{
+  color: yellow;
+  font-family: roboto;
+}
+
+.header ul li a {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+color: #ffffff;
+font-size: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.container {
+  display: overflow;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.main-content {
+  flex-direction: column; 
+}
+
+.sidebar {
+  position: absolute;
+  background-color: #000080; 
+  right: 60px;
+  top: 230px;
+  width: 400px; 
+  height: 400px; 
+  text-align: center;
+}
+
+.sidebar img {
+  border-radius: 8px; 
+  width: 100%; 
+  height: auto; 
+}
+
+.sidebar p {
+  color: white;
+  margin-top: 10px;
+}
+
+.card{
+  width: 800px;
+  height: 500px;
+  background-color: darkgreen;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+.sidebar{
+  position: absolute;
+  right: 20px;
+  top: 230px;
+  width: 100px; 
+  height: 300px; 
+  text-align: center;
+}
+
+.card{
+  width: 200px;
+  height: 500px;
+}
+
+.card img{
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar tr td{
+  margin-left: 40px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+.sidebar table tr td{
+  font-size:30px;
+}
+
+.card img{
+  width: 500px;
+  height: 300px;
+}
+}
+
+.sidebar tr td{
+  margin-left: 60px;
+  font-size: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card table tr th td{
+  color: #ffffff;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+}
+
+.card p{
+  margin-top: 20px;
+}
+
+
+.card table{
+  margin-top: 12px;
+  margin-left: 45px;
+
+}
+
+.card-btn:hover {
+  background-color: lightgray;
+}
+
+.footer{
+  position: relative;
+  margin-top: auto;
+  clear:both;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: darkgreen;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
